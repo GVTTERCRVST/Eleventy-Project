@@ -1,0 +1,53 @@
+/* IM215 Boilerplate */
+:root {
+    --blue: #172760;
+    --purple: #835A73;
+    --yellow: #ECB448;
+    --green: #788159;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #eeeeee;
+    color: #ffffff;
+}
+.section {
+    height: 120vh;
+    padding: 5vw;
+    position: relative;
+}
+.section :first-child {
+    margin-top: 0;
+}
+.section > p {
+    width: 33vw;
+    font-size: 3rem;
+}
+.section1 {
+    background-color: var(--blue);
+}
+.section2 {
+    background-color: var(--purple);
+}
+.section3 {
+    background-color: var(--yellow);
+}
+.section4 {
+    background-color: var(--green);
+}
+.test-div {
+    width: 50vw;
+    height: 20vh;
+    background-color: var(--blue);
+    position: relative;
+    padding: 2vw;
+    opacity: 0;
+    transition: 300ms;
+}
+.sidebar {
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    background-color: var(--green);
+    padding: 2vw;
+    right: 5vw;
+}
